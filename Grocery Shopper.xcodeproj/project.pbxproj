@@ -16,6 +16,8 @@
 		B567F561259F41CD006DD822 /* RealmPresistentinitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567F560259F41CD006DD822 /* RealmPresistentinitializer.swift */; };
 		B567F565259F464C006DD822 /* ShoppingItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567F564259F464C006DD822 /* ShoppingItemDB.swift */; };
 		B567F568259F4781006DD822 /* ShoppingItemDBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567F567259F4781006DD822 /* ShoppingItemDBKeys.swift */; };
+		B567F56B259F4931006DD822 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567F56A259F4931006DD822 /* ShoppingItem.swift */; };
+		B567F56E259F4C36006DD822 /* ShoppingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567F56D259F4C36006DD822 /* ShoppingStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B567F560259F41CD006DD822 /* RealmPresistentinitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPresistentinitializer.swift; sourceTree = "<group>"; };
 		B567F564259F464C006DD822 /* ShoppingItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemDB.swift; sourceTree = "<group>"; };
 		B567F567259F4781006DD822 /* ShoppingItemDBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemDBKeys.swift; sourceTree = "<group>"; };
+		B567F56A259F4931006DD822 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		B567F56D259F4C36006DD822 /* ShoppingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B567F560259F41CD006DD822 /* RealmPresistentinitializer.swift */,
+				B567F56D259F4C36006DD822 /* ShoppingStore.swift */,
 			);
 			path = RealmDB;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				B567F564259F464C006DD822 /* ShoppingItemDB.swift */,
 				B567F567259F4781006DD822 /* ShoppingItemDBKeys.swift */,
+				B567F56A259F4931006DD822 /* ShoppingItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B567F56B259F4931006DD822 /* ShoppingItem.swift in Sources */,
 				B567F565259F464C006DD822 /* ShoppingItemDB.swift in Sources */,
 				B567F561259F41CD006DD822 /* RealmPresistentinitializer.swift in Sources */,
+				B567F56E259F4C36006DD822 /* ShoppingStore.swift in Sources */,
 				B567F54A259F3E54006DD822 /* ContentView.swift in Sources */,
 				B567F548259F3E54006DD822 /* Grocery_ShopperApp.swift in Sources */,
 				B567F568259F4781006DD822 /* ShoppingItemDBKeys.swift in Sources */,

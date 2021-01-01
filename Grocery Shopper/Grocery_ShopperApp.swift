@@ -11,7 +11,7 @@ import SwiftUI
 struct Grocery_ShopperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ShoppingStore(realm: RealPersistent.initializer()))
         }
     }
 }
